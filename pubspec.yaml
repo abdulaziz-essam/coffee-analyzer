@@ -39,6 +39,7 @@ dependencies:
   image: ^4.8.0
   flutter_native_splash: ^2.4.7
   video_player: ^2.11.1
+  image_field: ^0.0.12
 
 dev_dependencies:
   flutter_test:
