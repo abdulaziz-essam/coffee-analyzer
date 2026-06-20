@@ -1,3 +1,47 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
 # Python
 __pycache__/
 *.py[cod]
@@ -6,13 +50,14 @@ __pycache__/
 venv/
 .venv/
 
-# Model training output (keep .tflite, ignore large keras model)
+# Model training output (keep .tflite, ignore large artifacts)
 coffee_model_training/output/*.keras
 coffee_model_training/output/*.npy
 coffee_model_training/output/*.pkl
 coffee_model_training/output/user_ratings.csv
+model/data
 
-# Flutter
+# Flutter build
 flutter_cv/build/
 flutter_cv/.dart_tool/
 flutter_cv/.flutter-plugins
@@ -21,11 +66,5 @@ flutter_cv/pubspec.lock
 flutter_cv/venv/
 flutter_cv/nul
 
-# IDE
-.vscode/
-.idea/
-*.iml
-
 # OS
-.DS_Store
 Thumbs.db
