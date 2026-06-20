@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Model training output (keep .tflite, ignore large keras model)
+coffee_model_training/output/*.keras
+coffee_model_training/output/*.npy
+coffee_model_training/output/*.pkl
+coffee_model_training/output/user_ratings.csv
+
+# Flutter
+flutter_cv/build/
+flutter_cv/.dart_tool/
+flutter_cv/.flutter-plugins
+flutter_cv/.flutter-plugins-dependencies
+flutter_cv/pubspec.lock
+flutter_cv/venv/
+flutter_cv/nul
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
